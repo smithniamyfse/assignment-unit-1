@@ -9,3 +9,6 @@
 /* Put a border around your image */
 
 /* Change the font-family of your list */
+ul li { 
+    padding: 5px 0px; 
+}
