@@ -1,21 +1,41 @@
 # Type your responses on a new line
 
 # 1 - What is the command for listing the files in the current folder (directory)?
+ls (list files)
 
 # 2 - What is the command for changing directories?
+cd (change directories)
 
 # 3 - What is the command for going "up" a folder (to a parent directory)?
+cd / (goes to the root directory)
+cd ~ (navigates to my home directory)
+cd .. (navigates up one level)
+cd - (navigates back to the previous directory)
 
 # 4 - What is a quick way to create a new folder?
+mkdir
 
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
+ls empty folder: The command would list nothing following the folder name because there are no files in the directory. 
+ls folder with files: The command would list any files or folders the directory contained. 
 
 # 6 - What is a quick way to create a new file?
+touch
 
 # 7 - Run 'git --version' in your terminal. What is the output?
+git version 2.15.0
 
 # 8 - Why would you run the command 'git status'?
+git status shows any newly added files and/or folders for a specific branch. The command also shows which files or folders have been modified in a specific branch. 
+I would run the command periodically to see if the changes I made in VSCode registered or were considered not staged (red) before the git add . command. 
+Also, following the git add . command to ensure the changes on all the files were commited (turned green) and following the git commit -m "", to ensure the commit was registered. 
 
 # 9 - What does the command 'git add .' do?
+As I am working, changing or saving a file multiple times, the git add . adds any of those new or changed files in the directory I am working in to the staging area.
+I would perform this command periodically, especially after testing new code to see if it was successful. 
+When I am ready to finalize these changes and group them into a commmit, I would use git commit -m "message here", essentially creating a log of what the changes are. 
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+git push origin main 
+origin = a bookmark for GitHub
+main = the branch I was working on 
